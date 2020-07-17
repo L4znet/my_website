@@ -85,14 +85,14 @@ main{
           height:70px;
           padding:5px 0;
           .logo{
-            min-width:160px;
+            min-width:100px;
             height:100%;
             display:flex;
             align-items: center;
-            padding:0 20px;
+            padding:20px 20px;
             img{
-              min-width:35%;
-              min-height:35%;
+              min-width:80%;
+              min-height:80%;
               width:auto;
               height:auto;
             }
