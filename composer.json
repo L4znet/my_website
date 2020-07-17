@@ -1,0 +1,10 @@
+{
+    "name": "charly/cv",
+    "authors": [
+        {
+            "name": "Charly Escalona",
+            "email": "charly.escalona1@gmail.com"
+        }
+    ],
+    "require": {}
+}

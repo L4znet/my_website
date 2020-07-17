@@ -1,0 +1,43 @@
+$bg_color : #F2F2F2;
+
+$primary_color : #132130;
+
+$secondary_color : #E8413F;
+
+$tertiary_color : #a44545;
+
+$white_color : #FFF;
+
+@font-face {
+  font-family: "Sansation";
+  src: url('../fonts/sansation/Sansation_Regular.ttf');
+}
+@font-face {
+  font-family: "Sansation";
+  font-weight: bold;
+  src: url('../fonts/sansation/Sansation_Bold.ttf');
+}
+@font-face {
+  font-family: "Sansation";
+  font-weight: bold;
+  font-style: italic;
+  src: url('../fonts/sansation/Sansation_Bold_Italic.ttf');
+}
+@font-face {
+  font-family: "Sansation";
+  font-weight: 300;
+  src: url('../fonts/sansation/Sansation_Light.ttf');
+}
+@font-face {
+  font-family: "Sansation";
+  font-weight: 300;
+  font-style: italic;
+  src: url('../fonts/sansation/Sansation_Light_Italic.ttf');
+}
+@font-face {
+  font-family: "Sansation";
+  font-style: italic;
+  src: url('../fonts/sansation/Sansation_Italic.ttf');
+}
+
+

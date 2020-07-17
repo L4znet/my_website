@@ -1,0 +1,289 @@
+body{
+  background-color: $bg_color;
+  margin:0;
+  font-family: "Sansation", sans-serif;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+li{
+  margin:0;
+  padding:0;
+}
+a{
+  margin:0;
+  padding:0;
+}
+
+
+
+main{
+  display: flex;
+  overflow-x:hidden;
+  position: relative;
+  transition:all 0.3s;
+  height:100vh;
+  flex-grow:1;
+  flex-direction: column;
+  background-color: #FFF;
+
+  .menu{
+    height:100vh;
+    transform: translateX(250px);
+    transition:all 0.3s;
+    width:240px;
+    background-color: $tertiary_color;
+    position: absolute;
+    right:0;
+    ul{
+      padding-right:10px;
+      li{
+        padding:20px 0 0 10px;
+        list-style: none;
+        transition:all 0.3s;
+        margin-left:10px;
+        a{
+          color:$white_color;
+          text-decoration: none;
+          font-size:20px;
+        }
+        &:hover{
+          margin-left:20px;
+          transition:all 0.3s;
+        }
+      }
+    }
+  }
+
+  .content{
+    width: 100%;
+    position: absolute;
+    transition:all 0.3s;
+    display: flex;
+    background-color: #f2f2f2;
+    flex-direction:column;
+
+    .home{
+      height:100%;
+      width:100%;
+      background-color: #f2f2f2;
+      header{
+        display: flex;
+        flex-direction:column;
+        width:100%;
+        background-color: $primary_color;
+        border-bottom:4px solid $secondary_color;
+        align-items: center;
+
+        nav{
+          display: flex;
+          width:100%;
+          height:auto;
+          background-color: $primary_color;
+          height:70px;
+          padding:5px 0;
+          .logo{
+            min-width:160px;
+            height:100%;
+            display:flex;
+            align-items: center;
+            padding:0 20px;
+            img{
+              min-width:35%;
+              min-height:35%;
+              width:auto;
+              height:auto;
+            }
+          }
+          .button{
+            width:100%;
+            color:$secondary_color;
+            font-size:30px;
+            display: flex;
+            height:100%;
+            align-items: center;
+            justify-content: flex-end;
+            margin:0 20px 0 0;
+            i{
+              cursor: pointer;
+            }
+          }
+        }
+        .title{
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          height:100%;
+          width:35%;
+          height:auto;
+          max-height:500px;
+          min-height:80px;
+          padding-bottom:80px;
+
+          h1{
+            color:$white_color;
+            margin:0;
+            padding:0;
+            text-transform: uppercase;
+            font-size:40px;
+            span{
+              color:$secondary_color;
+              font-size:70px;
+            }
+          }
+          h2{
+            color:$white_color;
+            font-size:20px;
+            font-weight:300;
+          }
+          hr{
+            width:80px;
+            border:4px solid $secondary_color;
+            text-align:left;
+            margin-left:0;
+          }
+        }
+      }
+    
+
+  
+      .projects{
+          width:100%;
+          height:100%;
+          display: flex;
+          justify-content: center;
+          align-items:center;
+          padding:30px 0 6% 0;
+
+          .project{
+              width:330px;
+              height:190px;
+              margin:0 20px;
+              background-color: $white_color;
+              border-bottom:2px solid $secondary_color;
+              color:#000;
+              text-decoration: none;
+              position:relative;
+              transition:all 0.2s;
+              &:hover{
+                cursor:pointer;
+                transform: scale(1.1);
+                transition:all 0.2s;
+              }
+
+              .title{
+                  color:#000;
+                  font-size:26px;
+                  display: flex;
+                  font-weight:bold;
+                  text-transform: uppercase;
+                  margin:50px 0 0 10px;
+               }
+
+               .tag{
+                 display: flex;
+                 background-color:$secondary_color;
+                 width:130px;
+                 height:25px;
+                 margin:10px 0 0 10px;
+                 border-radius:16px;
+                 color:#FFF;
+                 display:flex;
+                 justify-content: center;
+                 align-items:center;
+               }
+          }
+        }
+     }
+     .profil{
+      width:100%;
+      display: flex;
+      align-items:center;
+      justify-content:flex-start;
+      padding:20px 0;
+      background-color:$white_color;
+
+      img{
+        width:150px;
+        height:150px;
+        border-radius:50%;
+        margin:0 20px;
+      }
+
+      .text{
+        display:flex;
+        flex-direction:column;
+
+        strong{
+          color:$secondary_color;
+          font-size:25px;
+        }
+        span:nth-child(2n){
+            color:$primary_color;
+            font-size:18px;
+         }
+        span:nth-child(3n){
+            font-size:16px;
+            font-style: italic;
+            font-weight:300;
+         }
+
+         span{
+            margin-top:10px;
+         }
+      }
+     }
+     .text_about_me{
+        width:100%;
+        background-color:#F5F5F5;
+        padding-top:80px;
+        padding-bottom:80px;
+
+        p{
+          display: flex;
+          font-size:24px;
+          quotes:none;
+          font-style: italic;
+          font-weight:300;
+
+          b{
+            color:$secondary_color;
+            margin:0 4px;
+            font-weight:bold;
+          }
+        }
+
+        .quote_left{
+          display:flex;
+          justify-content: flex-start;
+          margin:20px 0 20px 20px;
+        }
+
+        .quote_right{
+          display:flex;
+          justify-content: flex-end;
+          margin:20px 30px 20px 0;
+        }
+     }
+
+     .watch_words{
+       width:100%;
+       height:400px;
+       background-color:$white_color;
+     }
+
+
+     .admin{
+       
+     }
+  }
+}
+
+
+  footer{
+    width:100%;
+    height:100px;
+    background-color: $tertiary_color;
+  }

@@ -1,0 +1,19 @@
+{
+    "project": {
+        "id": "2",
+        "title": "Moodboard U2",
+        "tag": "Webdesign",
+        "description":"Un outil permettant le calcul et la création de chiffrage pour une entreprise de construction de maison individuel. L'outil permet la création, suppresion, et modification des chiffrages. La gestion des utilisateurs (ainsi que leurs rôles), des items composants les chiffrages, des catégories d'items etc..",
+        "languages": [
+            { "language": "PHP" },
+            { "language": "MySQL" },
+            { "language": "jQuery"},
+            { "language": "Ajax"}
+        ],
+        "picture":"fsdffdsfsdsds",
+        "picture_alt":"fsdffdsfsdsds",
+        "thumbnail":"fsdffdsfsdsds",
+        "thumbnail_alt":"fsdffdsfsdsds",
+        "url_available":false
+    }
+}
