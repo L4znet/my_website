@@ -1,0 +1,18 @@
+{
+    "names": "Charly Escalona",
+        "profil_pict":"../assets/img/avatar.PNG",
+        "age": "21",
+        "statut": "Étudiant en Webdesign",
+        "job":"MJM Webstart",
+        "quote_1":"J’ai commencé le [Développement Web] à l’âge de [10 ans], et depuis je n’ai pas cessé d’apprendre.",
+        "quote_2":"J’aime me tenir au courant sur beaucoup de sujets, ma veille ne se limite pas qu’au développement web.",
+        "study_subjects": [
+            {
+              "subjet": [{
+                  "title":"CSS",
+                  "subjet_color":"#000",
+                  "angle":"45"
+              }]
+            }
+        ]
+}
