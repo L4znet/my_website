@@ -2,9 +2,9 @@
         <section class="home">
             <header>
                 <nav>
-                    <div class="logo">
+                    <a href="index.php" class="logo">
                         <img src="assets/img/logo.svg" alt="Le logo du site">
-                    </div>
+                    </a>
                     <div class="button">
                         <i class="fa fa-arrow-left"></i>
                     </div>
@@ -12,7 +12,7 @@
             </header>
         </section>
         <section class="profil">
-            <img src="assets/img/me.jpg" alt="Avatar">
+            <img src="assets/img/avatar.PNG" alt="Avatar">
             <div class="text">
                 <strong>Charly Escalona</strong>
                 <span>21 ans</span>
