@@ -10,7 +10,7 @@
 
 * Faire le responsive
 
-# 🔨Mettre en place le CV
+# 🔨 Mettre en place le CV
 
 * Vous pouvez modifier votre **image de profil** en remplaçant l'image **"avatar.PNG"** par la vôtre, pensez bien à renommer votre fichier avec le nom **"avatar"**.
 
