@@ -18,9 +18,9 @@
         <section class="home">
             <header>
                 <nav>
-                    <div class="logo">
+                    <a href="index.php" class="logo">
                         <img src="assets/img/logo.svg" alt="Le logo du site">
-                    </div>
+                    </a>
                     <div class="button">
                         <i class="fa fa-arrow-left"></i>
                     </div>
