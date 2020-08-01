@@ -227,10 +227,11 @@ main .content .profil {
   justify-content: flex-start;
   padding: 20px 0;
   background-color: #FFF;
+  border-bottom: 2px solid #dedede;
 }
 main .content .profil img {
-  width: 150px;
-  height: 150px;
+  width: 170px;
+  height: 170px;
   border-radius: 50%;
   margin: 0 20px;
 }
