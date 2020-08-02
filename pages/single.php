@@ -1,6 +1,5 @@
 <?php
     $project = $_GET['project'];
-
     $folders = read_dir('projects');
     $is_dir = is_dir('projects/' . $project);
 
@@ -18,7 +17,25 @@
     
     <div class="content">
         <section class="home">
-            <h1><?= $content->project->title ?></h1>
-            <h1><?= $content->project->description ?></h1>
+            
         </section>
+    </div>
+
+
+
+<div class="content">
+        <section class="home">
+            <header>
+                <nav>
+                    <a href="index.php" class="logo">
+                        <img src="assets/img/logo.svg" alt="Le logo du site">
+                    </a>
+                    <div class="button">
+                        <i class="fa fa-arrow-left"></i>
+                    </div>
+                </nav>
+            </header>
+        </section>
+        <h1><?= $content->project->title ?></h1>
+            <h1><?= $content->project->description ?></h1>
     </div>
