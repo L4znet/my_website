@@ -42,22 +42,22 @@ Ces fichiers permettent de présenter mes projets, et de définir les informatio
 ```
 {
     "project": {
-        "id": "1",
-        "title": "Outil de chiffrage",
-        "tag": "Développement Web",
-        "description":"Un outil permettant le calcul et la création de chiffrage pour une entreprise de construction de maison individuel. L'outil permet la création, suppresion, et modification des chiffrages. La gestion des utilisateurs (ainsi que leurs rôles), des items composants les chiffrages, des catégories d'items etc..",
+        "id": "42",
+        "title": "Lorem ipsum dolor sit amet",
+        "tag": "consectetur",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip",
         "languages": [
-            { "language": "PHP" },
-            { "language": "MySQL" },
-            { "language": "jQuery"},
-            { "language": "Ajax"}
+            { "language": "consectetur" },
+            { "language": "nostrud" },
+            { "language": "exercitation"},
+            { "language": "adipiscing"}
         ],
-        "picture":"fsdffdsfsdsds",
-        "picture_alt":"fsdffdsfsdsds",
-        "thumbnail":"fsdffdsfsdsds",
-        "thumbnail_alt":"fsdffdsfsdsds",
-        "url_available":false,
-        "url":""
+        "picture":"Lorem_ipsum_dolor_sit.jpg",
+        "picture_alt":"incididunt ut labore",
+        "thumbnail":"ipsum_consectetur_lorem.jpg",
+        "thumbnail_alt":"ut exercitation labore",
+        "url_available":true,
+        "url":"www.example.com"
     }
 }
 ```
