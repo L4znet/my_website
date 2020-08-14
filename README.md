@@ -37,5 +37,41 @@ Continuer les recherches
 ## Medium
 Récupération des articles via mon flux rss.
 
+# Structure d'un fichier "project.json".
+Ces fichiers permettent de présenter mes projets, et de définir les informations qui seront présente sur le site, ils s'écrivent ainsi :
+```
+{
+    "project": {
+        "id": "1",
+        "title": "Outil de chiffrage",
+        "tag": "Développement Web",
+        "description":"Un outil permettant le calcul et la création de chiffrage pour une entreprise de construction de maison individuel. L'outil permet la création, suppresion, et modification des chiffrages. La gestion des utilisateurs (ainsi que leurs rôles), des items composants les chiffrages, des catégories d'items etc..",
+        "languages": [
+            { "language": "PHP" },
+            { "language": "MySQL" },
+            { "language": "jQuery"},
+            { "language": "Ajax"}
+        ],
+        "picture":"fsdffdsfsdsds",
+        "picture_alt":"fsdffdsfsdsds",
+        "thumbnail":"fsdffdsfsdsds",
+        "thumbnail_alt":"fsdffdsfsdsds",
+        "url_available":false,
+        "url":""
+    }
+}
+```
+* id : Ça reste plutôt explicite, vous définissez l'id du projet.
+* title : Le nom du projet
+* tag : La catégorie du projet
+* description : Description du projet
+* languages : Alors, même si il y a écrit languages, vous pouvez évidemment y écrire toutes les technologies / choses que vous avez utilisés pour créer votre projet, pas uniquemnet les langages web. 
+* picture : le lien vers l'image de présentation du projet (facultatif, si il n'y pas de lien, une image par défaut sera mise à place).
+* picture_alt : le texte qui sera mis dans la balise alt
+Même principe pour la thumbnail ainsi que le thumbnail alt, une image d'aperçu et son texte.
+* url_available : deux paramètres possible : true ou false, true signfie qu'il y a une url pour accéder à votre projet.
+* url : c'est un paramètre qui ne doit être défini que dans le cas où url_available est a true, dans le cas contraire le paramètre url sera tout simplement ignoré même si vous y mettez du texte.
+
+
 # Changelogs
 
