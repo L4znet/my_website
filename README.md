@@ -4,9 +4,11 @@
 
 # 💻 TODO
 
-* Styliser la page single
+* Styliser la page single. 
 
-* Inclure Codepen et Quora
+* Coder le CV statique sur une page web et rendre le téléchargement du cv statique possible.
+
+* Inclure Codepen, quora et medium.
 
 * Faire le responsive
 
@@ -23,3 +25,17 @@
 * Grâce à un peu de PHP j'ai pu définir un système de marquage pour certains de mes textes, par exemple dans le fichier **profile.json** vous pouvez mettre en gras les morceaux de phrases que vous désirez en les entourants de [], pour souligner, il suffit d'encadrer de : /le mot/, cette syntaxe ne s'appuit sur aucune syntaxe existante.
 
 * Si vous souhaitez modifier le style du site, j'utilise SASS pour plus de simpliciter, pensez-donc à l'utiliser vous aussi.
+
+# 🔎 Pistes pour la mise en place de Quora, Codepen et de Medium
+
+## Codepen
+Il existe des moyens d'inclure l'API, à tester lequel est le plus pertinent.
+
+## Quora
+Continuer les recherches
+
+## Medium
+Récupération des articles via mon flux rss.
+
+# Changelogs
+
