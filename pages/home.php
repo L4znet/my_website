@@ -26,15 +26,16 @@
                     </div>
                 </nav>
                 <div class="title">
-                    <h1><span>C</span>harly <span>E</span>scalona</h1>
-                    <h2>Développeur Web & Webdesigner Junior</h2>
+                    <h1><?= colorize_names(get_profil('names'))?></h1>
+                    <h2><?= get_profil('statut')?></h2>
                     <hr>
                 </div>
             </header>
             <div class="projects">
-                <a href="index.php?p=single&project=<?= $first_folder ?>" class="project">
-                    <span class="tag"><?= $content->project->tag ?></span>
-                    <span class="title"><?= $content->project->title ?></span>
+            <?= first_folder() ?>
+                <a href="index.php?p=single&project=" class="project">
+                    <span class="tag"><?= get_first_content('tag') ?></span>
+                    <span class="title"><?= get_first_content('title') ?></span>
                 </a>
             </div>
         </section>
