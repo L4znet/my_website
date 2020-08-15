@@ -12,6 +12,10 @@
 
 * Faire le responsive
 
+* Fixer le bug de la page home
+
+* Rendre possible la personnalisation de certains éléments graphique avec du CSS custom, déplacer le CSS "core", modulariser les différents style pour permettre une modification simplifié.
+
 # 🔨 Mettre en place le site chez vous.
 
 * Vous pouvez modifier votre **image de profil** en remplaçant l'image **"avatar.PNG"** par la vôtre, pensez bien à renommer votre fichier avec le nom **"avatar"**.
@@ -75,3 +79,4 @@ Même principe pour la thumbnail ainsi que le thumbnail alt, une image d'aperçu
 
 # Changelogs
 
+* [Début de l'écriture du changelogs, le projet a débuté bien avant]16 Aout 2020 - Maintenant il est possible, de mettre en gras des morceaux de texte en utilisant une fonction.
