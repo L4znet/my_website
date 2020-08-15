@@ -144,6 +144,46 @@ main{
             margin-left:0;
           }
         }
+
+
+        .single_title{
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          height:100%;
+          width:100%;
+          height:auto;
+          max-height:500px;
+          align-items: center;
+
+          min-height:80px;
+          padding-bottom:80px;
+
+          h1{
+            color:$white_color;
+            margin:0;
+            padding:0;
+            text-transform: uppercase;
+            font-size:60px;
+            span{
+              color:$secondary_color;
+              font-size:70px;
+            }
+          }
+          h2{
+            color:$secondary_color;
+            font-size:30px;
+            font-weight:300;
+            margin:0;
+          }
+          hr{
+            width:80px;
+            border:4px solid $secondary_color;
+            text-align:left;
+            margin-left:0;
+          }
+        }
+
       }
     
 

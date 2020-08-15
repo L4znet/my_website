@@ -175,6 +175,41 @@ main .content .home header .title hr {
   text-align: left;
   margin-left: 0;
 }
+main .content .home header .single_title {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+  align-items: center;
+  min-height: 80px;
+  padding-bottom: 80px;
+}
+main .content .home header .single_title h1 {
+  color: #FFF;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  font-size: 60px;
+}
+main .content .home header .single_title h1 span {
+  color: #E8413F;
+  font-size: 70px;
+}
+main .content .home header .single_title h2 {
+  color: #E8413F;
+  font-size: 30px;
+  font-weight: 300;
+  margin: 0;
+}
+main .content .home header .single_title hr {
+  width: 80px;
+  border: 4px solid #E8413F;
+  text-align: left;
+  margin-left: 0;
+}
 main .content .home .projects {
   width: 100%;
   height: 100%;
