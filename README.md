@@ -79,4 +79,5 @@ Même principe pour la thumbnail ainsi que le thumbnail alt, une image d'aperçu
 
 # Changelogs
 
-* [Début de l'écriture du changelogs, le projet a débuté bien avant]16 Aout 2020 - Maintenant il est possible, de mettre en gras des morceaux de texte en utilisant une fonction.
+[Début de l'écriture du changelogs, le projet a débuté bien avant]
+* **16 Aout 2020** - Maintenant il est possible, de mettre en gras des morceaux de texte en utilisant une fonction.
