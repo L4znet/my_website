@@ -1,25 +1,6 @@
 <?php
-    $project = $_GET['project'];
-    $folders = read_dir('projects');
-    $is_dir = is_dir('projects/' . $project);
-
-    if($is_dir && file_exists('projects/' . $project) && isset($_GET['project'])){
-        $handle = opendir('projects/' . $project);
-        $files = scandir('projects/' . $project);
-        $files = array_diff($files, [".", "..", ".DS_Store"]);
-        $json = file_get_contents("projects/" . $project . "/project.json");
-        $content = json_decode($json);
-     } else {
-        error_404();
-    }
-?>
-
     
-    <div class="content">
-        <section class="home">
-            
-        </section>
-    </div>
+?>
 
 
 
@@ -34,8 +15,16 @@
                         <i class="fa fa-arrow-left"></i>
                     </div>
                 </nav>
+                <div class="single_title">
+                <h1><?= get_content('title') ?></h1>
+                <h2><?= get_content('tag') ?></h2>
+                </div>
             </header>
         </section>
-        <h1><?= $content->project->title ?></h1>
-            <h1><?= $content->project->description ?></h1>
+        <section class="single">
+            <p>
+            <?= get_content('description') ?>
+            </p>
+        </section>
+           
     </div>
