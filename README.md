@@ -69,7 +69,7 @@ Ces fichiers permettent de présenter mes projets, et de définir les informatio
 * id : Ça reste plutôt explicite, vous définissez l'id du projet.
 * title : Le nom du projet
 * slug : C'est le titre du projet normalisé, il permet de sélectionner le bon projet et d'afficher les informations qui correspondent sur la page single 
-⚠️ le slug doit obligatoirement être identique au titre et être écrit de la même manière (sans accents ni caractères spéciaux), chaque mots doivent être séparés par des espaces : mon_super_titre
+(⚠️ le slug doit obligatoirement être identique au titre et être écrit de la même manière (sans accents ni caractères spéciaux), chaque mots doivent être séparés par des espaces : mon_super_titre)
 * tag : La catégorie du projet
 * description : Description du projet
 * languages : Alors, même si il y a écrit languages, vous pouvez évidemment y écrire toutes les technologies / choses que vous avez utilisés pour créer votre projet, pas uniquemnet les langages web. 
