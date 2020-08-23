@@ -245,7 +245,8 @@ main .content .home .projects .project .title {
 main .content .home .projects .project .tag {
   display: flex;
   background-color: #E8413F;
-  width: 175px;
+  width: 200px;
+  min-width: 175px;
   height: 37px;
   margin: 30px 0 0 20px;
   border-radius: 5px;
