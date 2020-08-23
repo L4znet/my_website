@@ -48,6 +48,7 @@ Ces fichiers permettent de présenter mes projets, et de définir les informatio
     "project": {
         "id": "42",
         "title": "Lorem ipsum dolor sit amet",
+        "slug": "lorem_ipsum_dolor_sit_amet",
         "tag": "consectetur",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip",
         "languages": [
@@ -67,6 +68,8 @@ Ces fichiers permettent de présenter mes projets, et de définir les informatio
 ```
 * id : Ça reste plutôt explicite, vous définissez l'id du projet.
 * title : Le nom du projet
+* slug : C'est le titre du projet normalisé, il permet de sélectionner le bon projet et d'afficher les informations qui correspondent sur la page single 
+⚠️ le slug doit obligatoirement être identique au titre et être écrit de la même manière (sans accents ni caractères spéciaux), chaque mots doivent être séparés par des espaces : mon_super_titre
 * tag : La catégorie du projet
 * description : Description du projet
 * languages : Alors, même si il y a écrit languages, vous pouvez évidemment y écrire toutes les technologies / choses que vous avez utilisés pour créer votre projet, pas uniquemnet les langages web. 
@@ -81,3 +84,5 @@ Même principe pour la thumbnail ainsi que le thumbnail alt, une image d'aperçu
 
 [Début de l'écriture du changelogs, le projet a débuté bien avant]
 * **16 Aout 2020** - Maintenant il est possible, de mettre en gras des morceaux de texte en utilisant une fonction.
+
+* **23 Aout 2020** - Maintenant on peut afficher le dernier projet ajouté dans le dossier via une fonction.
