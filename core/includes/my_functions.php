@@ -14,6 +14,8 @@ function error_404()
     require 'pages/templates/404_template.php';
     return $content;
 }
+
+
 function error_404_redirect()
 {
     header('location:index.php?p=file_not_found');
@@ -64,31 +66,41 @@ function colorize_names($names)
 
 }
 
-function first_folder(){
-    $folders = read_dir('projects');
-    $dates = [];
-    for($i = 0; $i < count($folders); $i++){
-    
-        array_push($dates, filemtime('projects/' . $folders[$i]));
+
+
+
+function first_folder()
+{
+    $dir_nom = 'projects'; 
+    $dir = scandir($dir_nom) or die("Le dossier projects n'existe pas, vous devez le créer et y mettre vos dossiers de projets"); 
+
+    $date = array();
+    $nom = array();
+    foreach ($dir as $element) {
+        if($element != '.' && $element != '..' && $element != ".DS_Store") {
+            $stat = stat($dir_nom . '/' .$element);
+            array_push($nom, $element);
+            array_push($date, $stat['mtime'] . '***' . $element);
+            $data = array_combine($nom, $date);
+        }
     }
-    arsort($dates, SORT_REGULAR); // Tries du plus grand au plus petit
-	reset($dates); // On place le pointeur au début
-    $recent = $folders[key($dates)];
-    var_dump($recent);
-    $dates = "";
+    asort($data);
+    $data = explode("***", end($data));
+    return $data[1];
 }
 
-function is_project_dir(){
-    $first_folder = first_folder();
-    $is_dir = is_dir('projects/' . $first_folder);
-    return $is_dir;
+
+
+function is_project_dir($first_folder)
+{
+    return is_dir('projects/' . $first_folder);
 }
 
-function get_first_content($field){
+function get_first_content($field)
+{
     $first_folder = first_folder();
-    $is_dir = first_folder();
+    $is_dir = is_project_dir($first_folder);
     if($is_dir){
-        $handle = opendir('projects/' . $first_folder);
         $files = scandir('projects/' . $first_folder);
         $files = array_diff($files, [".", "..", ".DS_Store"]);
         $json = file_get_contents("projects/" . $first_folder . "/project.json");
@@ -103,6 +115,6 @@ function stylizer($text, $style){
             $text = str_replace('[', ' <b> ', $text);
             $text = str_replace(']', ' </b> ', $text);
         break;
-        }
-        return $text;
+    }
+    return $text;
 }
