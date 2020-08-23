@@ -12,7 +12,7 @@
 
 * Faire le responsive
 
-* Fixer le bug de la page home
+* __Fixer le bug de la page home__  ✅
 
 * Rendre possible la personnalisation de certains éléments graphique avec du CSS custom, déplacer le CSS "core", modulariser les différents style pour permettre une modification simplifié.
 
