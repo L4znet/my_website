@@ -1,6 +1,6 @@
 # Mon site
 
-## J'ai voulu tenter une approche différente pour mon site, en utilisant uniquement des fichiers JSON et un peu de PHP pour la gestion de l'ensemble du contenu de mon site, aucune données sensible n'est évidemment présente dans ces fichiers JSON.
+## J'ai voulu tenter une approche différente pour mon site, en utilisant uniquement des fichiers JSON et un peu de PHP pour la gestion de l'ensemble du contenu.
 
 # 💻 Todo
 
