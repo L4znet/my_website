@@ -78,11 +78,3 @@ Ces fichiers permettent de présenter mes projets, et de définir les informatio
 Même principe pour la thumbnail ainsi que le thumbnail alt, une image d'aperçu et son texte.
 * url_available : deux paramètres possible : true ou false, true signfie qu'il y a une url pour accéder à votre projet.
 * url : c'est un paramètre qui ne doit être défini que dans le cas où url_available est a true, dans le cas contraire le paramètre url sera tout simplement ignoré même si vous y mettez du texte.
-
-
-# Changelogs
-
-[Début de l'écriture du changelogs, le projet a débuté bien avant]
-* **16 Aout 2020** - Maintenant il est possible de mettre en gras des morceaux de texte en utilisant une fonction dédiée.
-
-* **23 Aout 2020** - Maintenant on peut afficher le dernier projet ajouté dans le dossier via une fonction.
